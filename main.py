@@ -6,8 +6,8 @@ from senko import Senko
 # 1. HARDWARE & CONFIGURATION SETUP
 # =====================================================================
 
-GITHUB_USER = "your_actual_github_username"
-GITHUB_REPO = "your_repo_name"
+GITHUB_USER “jimmyjam358"
+GITHUB_REPO = "solar-tracer"
 OTA = Senko(user=GITHUB_USER, repo=GITHUB_REPO, files=["main.py"])
 
 # --- Motor Driver Pins (H-Bridge IN1/IN2) ---
