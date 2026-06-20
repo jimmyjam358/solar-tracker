@@ -3,7 +3,7 @@ import machine
 from senko import Senko
 
 # --- OTA Configuration ---
-GITHUB_USER = "your_github_username"
+GITHUB_USER = "jimmyjam358"
 GITHUB_REPO = "your_solar_tracker_repo"
 
 # Senko watches only main.py here to protect your working boot.py
@@ -17,7 +17,7 @@ def run_test_logic():
     """
     Your current temporary test bench logic.
     """
-    print("[SYSTEM] Loop active. Monitoring for weather overrides...")
+    print("The bench is alive")
     # You can toggle a pin here or leave it as a heartbeat log
 
 def main():
